@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Proyecto Web Sencillo</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Proyecto Web</h1>
+    <p>Bienvenido a mi página web</p>
+  </header>
+
+  <main>
+    <!-- Sección de Introducción -->
+    <section id="introduccion">
+      <h2>Introducción</h2>
+      <p>Este proyecto es una prueba para una tarea de la carrera de ingenieria en sistemas.</p>
+    </section>
+
+    <!-- Sección de Galería de Imágenes -->
+    <section id="galeria">
+      <h2>Galería de Imágenes</h2>
+      <div class="imagenes">
+        <img src="https://itcampeche.edu.mx/wp-content/uploads/2018/09/Informatica.jpg" alt="Imagen 1">
+        <img src="https://cdn.milenio.com/uploads/media/2023/09/13/inteligencia-artificial-discutida-capitolio-eu.jpg" alt="Imagen 2">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7AuKdIpBf5U59BB9CzAf3JgY3y3GsL4fykQ&s" alt="Imagen 3">
+      </div>
+    </section>
+
+    <!-- Sección de Contacto -->
+    <section id="contacto">
+      <h2>Nicoly cárdenas Teles</h2>
+      <form>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="email">nicolycardenas@mail.com:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Proyecto Web. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
